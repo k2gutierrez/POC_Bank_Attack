@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.24;
 
+/**
+ * @title Fixed Bank
+ * @author Carlos Gutiérrez
+ * @notice Fixed Crypto Bank
+ */
 contract FixedBank {
 
     // User balance in contract

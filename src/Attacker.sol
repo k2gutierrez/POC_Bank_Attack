@@ -3,6 +3,11 @@ pragma solidity 0.8.24;
 
 import { SimpleBank } from "./SimpleBank.sol";
 
+/**
+ * @title Attacker contract
+ * @author Carlos Gutiérrez
+ * @notice Attacker contract for a cryptobank
+ */
 contract Attacker {
 
     // Contract of the address as interface -> adding the address to attack in constructor

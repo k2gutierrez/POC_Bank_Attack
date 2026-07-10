@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.24;
 
+/**
+ * @title Simple Bank
+ * @author Carlos Gutiérrez
+ * @notice Simple Bank with reentrancy vulnerability
+ */
 contract SimpleBank {
 
     // User balance in contract
